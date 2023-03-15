@@ -1,10 +1,14 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
 import weatherIcon from '../assets/images/weatherIcon.png';
 import nextArrow from '../assets/icons/next.png';
+import { getLatLon } from '../redux/home/homeSlice';
 
 function ByDefault() {
+  const dispatch = useDispatch();
+
   const getData = (e) => {
-    console.log(e);
+    dispatch(getLatLon(e));
   };
 
   return (

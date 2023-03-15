@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import '../styles/home.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
@@ -19,11 +19,21 @@ const Home = () => {
     if (Object.keys(home).length > 1) {
       dispatch(getWeatherData({ lat: home.lat, lon: home.lon }));
     }
-  }, [home]);
+  }, [dispatch, home]);
 
-  const getData = async () => {
+  const getData = () => {
     dispatch(getLatLon(inputValue));
     setInputValue('');
+  };
+
+  const city = useRef(null);
+
+  const getDetailData = (e) => {
+    if (e === 'nowshera') {
+      dispatch(getLatLon(e));
+    } else {
+      dispatch(getLatLon(city.current.textContent));
+    }
   };
 
   return (
@@ -38,8 +48,18 @@ const Home = () => {
       <Link to="/detail">
         {(Object.keys(detail).length > 1)
           ? (
-            <div className="weather-info-container">
-              <img src={weatherIcon} alt="" />
+            <div
+              className="weather-info-container"
+              role="button"
+              tabIndex={0}
+              onClick={getDetailData}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  getDetailData();
+                }
+              }}
+            >
+              <img className="a" src={weatherIcon} alt="weather icon" />
               <div className="weather-info-div">
                 <p style={{ fontWeight: 'bolder', fontSize: '22px' }}>
                   Country:
@@ -49,7 +69,7 @@ const Home = () => {
                 <p>
                   City:
                   {' '}
-                  {home.name}
+                  <span ref={city}>{home.name}</span>
                 </p>
                 <p>
                   Latitude:
@@ -71,7 +91,17 @@ const Home = () => {
             </div>
           )
           : (
-            <div className="weather-info-container">
+            <div
+              className="weather-info-container"
+              role="button"
+              tabIndex={0}
+              onClick={() => { getDetailData('nowshera'); }}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  getDetailData();
+                }
+              }}
+            >
               <img src={weatherIcon} alt="" />
               <div className="weather-info-div">
                 <p style={{ fontWeight: 'bolder', fontSize: '22px' }}>

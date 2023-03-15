@@ -1,124 +1,124 @@
 .home-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    background-color: rgba(255, 51, 119, 0.714);
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(255, 51, 119, 0.714);
+  position: relative;
 }
 
 .home-container .form-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
-    position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  position: absolute;
 }
 
 .home-container .form-container .error-massage {
-    font-size: small;
-    color: red;
+  font-size: small;
+  color: red;
 }
 
 .home-container .form-container form {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 4vh;
-    margin-top: 1vh;
-    border: 1px solid rgba(255, 255, 255, 0.498);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 4vh;
+  margin-top: 1vh;
+  border: 1px solid rgba(255, 255, 255, 0.498);
 }
 
 .home-container .form-container form input {
-    width: 100%;
-    height: 100%;
-    border: none;
-    outline: none;
-    background-color: rgba(255, 104, 154, 0.476);
-    padding-left: 1vh;
-    color: white;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 104, 154, 0.476);
+  padding-left: 1vh;
+  color: white;
 }
 
 .home-container .form-container form input::placeholder {
-    color: white;
+  color: white;
 }
 
 .home-container .form-container form button {
-    width: 5vh;
-    height: 100%;
-    border: none;
-    background-color: rgba(255, 104, 154, 0.476);
-    cursor: pointer;
-}
-
-.home-container .form-container form button img {
-    height: 100%;
-}
-
-.home-container .weather-info-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-top: 7vh;
-    padding-bottom: 2vh;
-    width: 100%;
-    background-color: rgba(255, 111, 159, 0.576);
+  width: 5vh;
+  height: 100%;
+  border: none;
+  background-color: rgba(255, 104, 154, 0.476);
+  cursor: pointer;
 }
 
 .home-container .weather-info-container img {
-    width: 10vh;
-    margin-left: 10%;
+  width: 10vh;
+  margin-left: 10%;
+}
+
+.home-container .form-container form button img {
+  height: 100%;
+}
+
+.home-container .weather-info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 7vh;
+  padding-bottom: 2vh;
+  width: 100%;
+  background-color: rgba(255, 111, 159, 0.576);
 }
 
 .home-container .weather-info-container .weather-info-div {
-    margin-left: 3vh;
-    margin-top: 1vh;
-    color: white;
-    position: relative;
+  margin-left: 3vh;
+  margin-top: 1vh;
+  color: white;
+  position: relative;
 }
 
 .home-container .weather-info-container .nextArrow {
-    width: 3.5vh;
-    position: absolute;
-    margin-left: 87%;
-    margin-bottom: 10vh;
+  width: 3.5vh;
+  position: absolute;
+  margin-left: 87%;
+  margin-bottom: 10vh;
 }
 
 .byDefault-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .byDefault-container .byDefault-cities-container {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 23.5vh;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 23.5vh;
 }
 
 .byDefault-cities {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    position: relative;
-    padding-left: 2vh;
-    color: white;
-    padding-top: 15px;
-    background-color: rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  padding-left: 2vh;
+  color: white;
+  padding-top: 15px;
+  background-color: rgba(0, 0, 0, 0.06);
 }
 
 .default-weatherIcon {
-    width: 6vh;
+  width: 6vh;
 }
 
 .default-nextArrow {
-    width: 3vh;
-    margin-left: 65%;
-    position: absolute;
+  width: 3vh;
+  margin-left: 65%;
+  position: absolute;
 }
 
 .home-container :any-link {
-    text-decoration: none;
-    width: 100%;
+  text-decoration: none;
+  width: 100%;
 }

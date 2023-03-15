@@ -1,11 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './components/navbar';
 import Home from './components/home';
-import './styles/App.css';
 import Detail from './components/detail';
+import './styles/App.css';
 
 function App() {
+  useEffect(() => {
+    if (window.location.pathname !== '/') {
+      window.location.href = '/';
+    }
+  }, []);
+
   return (
     <div className="App-container">
       <BrowserRouter>
