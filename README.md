@@ -41,8 +41,6 @@ HTML | CSS | JS | ES6 | React
 
 - [live link](https://weather-tcql.onrender.com)
 
-- The design was inspired [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -94,6 +92,8 @@ Feel free to check [issues page](https://github.com/huzaifakhan0308/react-capsto
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - Thanks Microverse, learn how to code > [Join Microverse](https://www.microverse.org/?grsf=9m3hq6)
+
+- The design was inspired [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
 
 ## 📝 License <a name="license"></a>
 
