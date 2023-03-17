@@ -39,7 +39,7 @@ HTML | CSS | JS | ES6 | React
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [live link](https://weather-tcql.onrender.com)
+- [live link](https://weather-8zxb.onrender.com)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
