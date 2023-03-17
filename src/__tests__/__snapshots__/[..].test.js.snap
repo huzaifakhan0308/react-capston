@@ -1,0 +1,646 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`All components tests Bydefault component 1`] = `
+<div
+  className="byDefault-container"
+>
+  <div
+    className="byDefault-cities-container"
+  >
+    <div
+      className="byDefault-cities"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      style={
+        Object {
+          "background": "rgba(0, 0, 0, 0.11)",
+        }
+      }
+      tabIndex={0}
+    >
+      <img
+        alt="weather-icon"
+        className="default-weatherIcon"
+        src="weatherIcon.png"
+      />
+      <div
+        className=""
+      >
+        <p
+          style={
+            Object {
+              "fontSize": "19px",
+              "fontWeight": "bolder",
+            }
+          }
+        >
+          Country: FR,
+        </p>
+        <p>
+          City: Paris
+        </p>
+        <p>
+          Timezone: 3600
+        </p>
+      </div>
+      <img
+        alt="next arrow icon"
+        className="default-nextArrow"
+        src="next.png"
+      />
+    </div>
+    <div
+      className="byDefault-cities"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <img
+        alt="weather-icon"
+        className="default-weatherIcon"
+        src="weatherIcon.png"
+      />
+      <div
+        className=""
+      >
+        <p
+          style={
+            Object {
+              "fontSize": "19px",
+              "fontWeight": "bolder",
+            }
+          }
+        >
+          Country: US
+        </p>
+        <p>
+          City: New York
+        </p>
+        <p>
+          Timezone: -14400
+        </p>
+      </div>
+      <img
+        alt="next arrow icon"
+        className="default-nextArrow"
+        src="next.png"
+      />
+    </div>
+  </div>
+  <div
+    className="byDefault-cities-container"
+  >
+    <div
+      className="byDefault-cities"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <img
+        alt="weather-icon"
+        className="default-weatherIcon"
+        src="weatherIcon.png"
+      />
+      <div
+        className=""
+      >
+        <p
+          style={
+            Object {
+              "fontSize": "19px",
+              "fontWeight": "bolder",
+            }
+          }
+        >
+          Country: RU
+        </p>
+        <p>
+          City: Moscow
+        </p>
+        <p>
+          Timezone: 10800
+        </p>
+      </div>
+      <img
+        alt="next arrow icon"
+        className="default-nextArrow"
+        src="next.png"
+      />
+    </div>
+    <div
+      className="byDefault-cities"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      style={
+        Object {
+          "background": "rgba(0, 0, 0, 0.11)",
+        }
+      }
+      tabIndex={0}
+    >
+      <img
+        alt="weather-icon"
+        className="default-weatherIcon"
+        src="weatherIcon.png"
+      />
+      <div
+        className=""
+      >
+        <p
+          style={
+            Object {
+              "fontSize": "19px",
+              "fontWeight": "bolder",
+            }
+          }
+        >
+          Country: CN
+        </p>
+        <p>
+          City: Beijing
+        </p>
+        <p>
+          Timezone: 28800
+        </p>
+      </div>
+      <img
+        alt="next arrow icon"
+        className="default-nextArrow"
+        src="next.png"
+      />
+    </div>
+  </div>
+  <div
+    className="byDefault-cities-container"
+  >
+    <div
+      className="byDefault-cities"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      style={
+        Object {
+          "background": "rgba(0, 0, 0, 0.11)",
+        }
+      }
+      tabIndex={0}
+    >
+      <img
+        alt="weather-icon"
+        className="default-weatherIcon"
+        src="weatherIcon.png"
+      />
+      <div
+        className=""
+      >
+        <p
+          style={
+            Object {
+              "fontSize": "19px",
+              "fontWeight": "bolder",
+            }
+          }
+        >
+          Country: AE
+        </p>
+        <p>
+          City: Dubai
+        </p>
+        <p>
+          Timezone: 14400
+        </p>
+      </div>
+      <img
+        alt="next arrow icon"
+        className="default-nextArrow"
+        src="next.png"
+      />
+    </div>
+    <div
+      className="byDefault-cities"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <img
+        alt="weather-icon"
+        className="default-weatherIcon"
+        src="weatherIcon.png"
+      />
+      <div
+        className=""
+      >
+        <p
+          style={
+            Object {
+              "fontSize": "19px",
+              "fontWeight": "bolder",
+            }
+          }
+        >
+          Country: TR
+        </p>
+        <p>
+          City: Istanbul
+        </p>
+        <p>
+          Timezone: 10800
+        </p>
+      </div>
+      <img
+        alt="next arrow icon"
+        className="default-nextArrow"
+        src="next.png"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`All components tests Detail component 1`] = `
+<div
+  className="detail-container"
+>
+  <div
+    className="weather-info-container"
+    style={
+      Object {
+        "color": "white",
+      }
+    }
+  >
+    loading....
+  </div>
+</div>
+`;
+
+exports[`All components tests Home component 1`] = `
+<div
+  className="home-container"
+>
+  <div
+    className="form-container"
+  >
+    <form
+      action=""
+    >
+      <input
+        className="search-city-input"
+        onChange={[Function]}
+        placeholder="search your city"
+        type="text"
+        value=""
+      />
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        <img
+          alt="search icon"
+          src="search-icon.png"
+        />
+      </button>
+    </form>
+  </div>
+  <a
+    href="/detail"
+    onClick={[Function]}
+  >
+    <div
+      className="weather-info-container"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <img
+        alt=""
+        src="weatherIcon.png"
+      />
+      <div
+        className="weather-info-div"
+      >
+        <p
+          style={
+            Object {
+              "fontSize": "22px",
+              "fontWeight": "bolder",
+            }
+          }
+        >
+          Country: PK
+        </p>
+        <p>
+          City: Nowshera
+        </p>
+        <p>
+          Latitude: 34.0156
+        </p>
+        <p>
+          Longitude: 71.9813
+        </p>
+        <p>
+          Timezone: 18000
+        </p>
+      </div>
+      <img
+        alt="next arrow"
+        className="nextArrow"
+        src="next.png"
+      />
+    </div>
+    <div
+      className="byDefault-container"
+    >
+      <div
+        className="byDefault-cities-container"
+      >
+        <div
+          className="byDefault-cities"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+          style={
+            Object {
+              "background": "rgba(0, 0, 0, 0.11)",
+            }
+          }
+          tabIndex={0}
+        >
+          <img
+            alt="weather-icon"
+            className="default-weatherIcon"
+            src="weatherIcon.png"
+          />
+          <div
+            className=""
+          >
+            <p
+              style={
+                Object {
+                  "fontSize": "19px",
+                  "fontWeight": "bolder",
+                }
+              }
+            >
+              Country: FR,
+            </p>
+            <p>
+              City: Paris
+            </p>
+            <p>
+              Timezone: 3600
+            </p>
+          </div>
+          <img
+            alt="next arrow icon"
+            className="default-nextArrow"
+            src="next.png"
+          />
+        </div>
+        <div
+          className="byDefault-cities"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <img
+            alt="weather-icon"
+            className="default-weatherIcon"
+            src="weatherIcon.png"
+          />
+          <div
+            className=""
+          >
+            <p
+              style={
+                Object {
+                  "fontSize": "19px",
+                  "fontWeight": "bolder",
+                }
+              }
+            >
+              Country: US
+            </p>
+            <p>
+              City: New York
+            </p>
+            <p>
+              Timezone: -14400
+            </p>
+          </div>
+          <img
+            alt="next arrow icon"
+            className="default-nextArrow"
+            src="next.png"
+          />
+        </div>
+      </div>
+      <div
+        className="byDefault-cities-container"
+      >
+        <div
+          className="byDefault-cities"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <img
+            alt="weather-icon"
+            className="default-weatherIcon"
+            src="weatherIcon.png"
+          />
+          <div
+            className=""
+          >
+            <p
+              style={
+                Object {
+                  "fontSize": "19px",
+                  "fontWeight": "bolder",
+                }
+              }
+            >
+              Country: RU
+            </p>
+            <p>
+              City: Moscow
+            </p>
+            <p>
+              Timezone: 10800
+            </p>
+          </div>
+          <img
+            alt="next arrow icon"
+            className="default-nextArrow"
+            src="next.png"
+          />
+        </div>
+        <div
+          className="byDefault-cities"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+          style={
+            Object {
+              "background": "rgba(0, 0, 0, 0.11)",
+            }
+          }
+          tabIndex={0}
+        >
+          <img
+            alt="weather-icon"
+            className="default-weatherIcon"
+            src="weatherIcon.png"
+          />
+          <div
+            className=""
+          >
+            <p
+              style={
+                Object {
+                  "fontSize": "19px",
+                  "fontWeight": "bolder",
+                }
+              }
+            >
+              Country: CN
+            </p>
+            <p>
+              City: Beijing
+            </p>
+            <p>
+              Timezone: 28800
+            </p>
+          </div>
+          <img
+            alt="next arrow icon"
+            className="default-nextArrow"
+            src="next.png"
+          />
+        </div>
+      </div>
+      <div
+        className="byDefault-cities-container"
+      >
+        <div
+          className="byDefault-cities"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+          style={
+            Object {
+              "background": "rgba(0, 0, 0, 0.11)",
+            }
+          }
+          tabIndex={0}
+        >
+          <img
+            alt="weather-icon"
+            className="default-weatherIcon"
+            src="weatherIcon.png"
+          />
+          <div
+            className=""
+          >
+            <p
+              style={
+                Object {
+                  "fontSize": "19px",
+                  "fontWeight": "bolder",
+                }
+              }
+            >
+              Country: AE
+            </p>
+            <p>
+              City: Dubai
+            </p>
+            <p>
+              Timezone: 14400
+            </p>
+          </div>
+          <img
+            alt="next arrow icon"
+            className="default-nextArrow"
+            src="next.png"
+          />
+        </div>
+        <div
+          className="byDefault-cities"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <img
+            alt="weather-icon"
+            className="default-weatherIcon"
+            src="weatherIcon.png"
+          />
+          <div
+            className=""
+          >
+            <p
+              style={
+                Object {
+                  "fontSize": "19px",
+                  "fontWeight": "bolder",
+                }
+              }
+            >
+              Country: TR
+            </p>
+            <p>
+              City: Istanbul
+            </p>
+            <p>
+              Timezone: 10800
+            </p>
+          </div>
+          <img
+            alt="next arrow icon"
+            className="default-nextArrow"
+            src="next.png"
+          />
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+`;
+
+exports[`All components tests Navbar component 1`] = `
+<nav>
+  <a
+    href="/"
+    onClick={[Function]}
+  />
+  <span
+    className="page-names"
+  >
+    cities
+  </span>
+  <div
+    className="mic-setting-icon-div"
+  >
+    <img
+      alt="mic icon"
+      className="micIcon"
+      src="mic.png"
+    />
+    <img
+      alt="setting icon"
+      className="settingIcon"
+      src="gear.png"
+    />
+  </div>
+</nav>
+`;

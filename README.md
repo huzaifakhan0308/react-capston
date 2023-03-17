@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# 📗 Table of Contents
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Awesome books ](#-weather-)
+  - [🛠 Built With ](#-built-with-)
+    - [Key Features ](#key-features-)
+    - [Tech Stack ](#tech-stack-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+  - [👥 Author ](#-author-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-## Available Scripts
+# 📖 Weather <a name="about-project"></a>
 
-In the project directory, you can run:
+**Weather App** in this project, i create a weather app using React.
 
-### `npm start`
+## 🛠 Built With <a name="built-with"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Key Features <a name="key-features"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **[Search your city]**
+- **[Go to detail page]**
+- **[React Router Dom]**
 
-### `npm test`
+### Tech Stack <a name="tech-stack"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+HTML | CSS | JS | ES6 | React
 
-### `npm run build`
+- More details about the project can be seen in this [video](https://www.loom.com/share/cfd65696b3314128938e2a5cf9ab8760) 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Live Demo <a name="live-demo"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [live link](https://book-store-6wut.onrender.com/)
 
-### `npm run eject`
+## 💻 Getting Started <a name="getting-started"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To get a local copy up and running, follow these steps.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+In order to run this project you need:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+A GitHub | A code editor | A web browser
 
-## Learn More
+### Install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Install all project dependencies by running the command below
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  `$ npm install`
 
-### Code Splitting
+### Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Clone this repository to your desired folder:
 
-### Analyzing the Bundle Size
+  `git clone https://github.com/huzaifakhan0308/react-capston`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Usage
 
-### Making a Progressive Web App
+To run the project, run `npm start` to run the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 👥 Author <a name="author"></a>
 
-### Advanced Configuration
+👤 **Huzaifa khan**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- GitHub: [@huzaifakhan0308](https://github.com/huzaifakhan0308)
+- Twitter: [@huzaifakhan0308](https://twitter.com/home?lang=en)
+- LinkedIn: [huzaifa khan](https://www.linkedin.com/in/huzaifa-khan-938140256/)
 
-### Deployment
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🔭 Future Features <a name="future-features"></a>
 
-### `npm run build` fails to minify
+- **[setting page]**
+- **[Add more styles]**
+- **[login & sign up]**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Feel free to check [issues page](https://github.com/huzaifakhan0308/react-capston/issues).
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Thanks Microverse, learn how to code > [Join Microverse](https://www.microverse.org/?grsf=9m3hq6)
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) Licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

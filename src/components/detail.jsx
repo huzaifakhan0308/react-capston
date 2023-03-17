@@ -1,24 +1,10 @@
-import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { getWeatherData } from '../redux/detail/detailSlice';
+import React from 'react';
+import { useSelector } from 'react-redux';
 import '../styles/detail.css';
 import weatherIcon from '../assets/images/weatherIcon.png';
 
 function Detail() {
-  const home = useSelector((state) => state.home);
   const detail = useSelector((state) => state.detail);
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    console.log(detail);
-  }, [detail]);
-
-  useEffect(() => {
-    if (Object.keys(home).length > 1) {
-      dispatch(getWeatherData({ lat: home.lat, lon: home.lon }));
-    }
-  }, [dispatch, home]);
-
   return (
     <div className="detail-container">
       {(Object.keys(detail).length > 1)

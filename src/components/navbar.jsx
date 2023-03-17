@@ -1,15 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../styles/navbar.css';
 import { Link, useLocation } from 'react-router-dom';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import leftArrowIcon from '../assets/icons/left-chevron.png';
 import micIcon from '../assets/icons/mic.png';
 import settingIcon from '../assets/icons/gear.png';
+import { getWeatherData } from '../redux/detail/detailSlice';
 
 function Navbar() {
   const home = useSelector((state) => state.home);
   const detail = useSelector((state) => state.detail);
   const location = useLocation();
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    if (location.pathname === '/detail' && Object.keys(home).length > 1) {
+      dispatch(getWeatherData({ lat: home.lat, lon: home.lon }));
+    }
+  }, [dispatch, location, home]);
 
   return (
     <nav>

@@ -10,7 +10,7 @@ import weatherIcon from '../assets/images/weatherIcon.png';
 import nextArrow from '../assets/icons/next.png';
 
 const Home = () => {
-  const [inputValue, setInputValue] = useState();
+  const [inputValue, setInputValue] = useState('');
   const home = useSelector((state) => state.home);
   const detail = useSelector((state) => state.detail);
   const dispatch = useDispatch();
@@ -40,13 +40,13 @@ const Home = () => {
     <div className="home-container">
       <div className="form-container">
         <form action="">
-          <input type="text" placeholder="search your city" className="search-city-input" onChange={(e) => { setInputValue(e.target.value); }} />
+          <input type="text" placeholder="search your city" className="search-city-input" value={inputValue} onChange={(e) => { setInputValue(e.target.value); }} />
           <button type="button" onClick={getData}><img src={searchIcon} alt="search icon" /></button>
         </form>
-        {(Object.keys(home).length === 1) ? <span className="error-massage">{home.error}</span> : ''}
+        {(Object.keys(home || {}).length === 1) ? <span className="error-massage">{home.error}</span> : ''}
       </div>
       <Link to="/detail">
-        {(Object.keys(detail).length > 1)
+        {(Object.keys(detail || {}).length > 1)
           ? (
             <div
               className="weather-info-container"
