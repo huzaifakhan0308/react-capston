@@ -33,13 +33,13 @@
 
 HTML | CSS | JS | ES6 | React
 
-- More details about the project can be seen in this [video](https://www.loom.com/share/cfd65696b3314128938e2a5cf9ab8760) 
+- More details about the project can be seen in this [video](https://www.loom.com/share/2d54f1e084ca4ed388b09794ed6a21a7) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [live link](https://book-store-6wut.onrender.com/)
+- [live link](https://weather-tcql.onrender.com)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
