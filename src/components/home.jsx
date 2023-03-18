@@ -21,7 +21,8 @@ const Home = () => {
     }
   }, [dispatch, home]);
 
-  const getData = () => {
+  const getData = (e) => {
+    e.preventDefault();
     dispatch(getLatLon(inputValue));
     setInputValue('');
   };
@@ -39,9 +40,9 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="form-container">
-        <form action="">
+        <form onSubmit={getData}>
           <input type="text" placeholder="search your city" className="search-city-input" value={inputValue} onChange={(e) => { setInputValue(e.target.value); }} />
-          <button type="button" onClick={getData}><img src={searchIcon} alt="search icon" /></button>
+          <button type="submit"><img src={searchIcon} alt="search icon" /></button>
         </form>
         {(Object.keys(home || {}).length === 1) ? <span className="error-massage">{home.error}</span> : ''}
       </div>
